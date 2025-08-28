@@ -11,8 +11,8 @@ public class ArrayList {
 		
 		for (int i = 0; i < array.length; i++) {
 			for (int j = 0; j < array[i].length; j++) {
-				array[i][j]=r.nextInt(10)+1;
-				array[i][j]=r.nextInt(10)+1;
+				array[i][j]=r.nextInt(10);
+				array[i][j]=r.nextInt(10);
 				int a = array[i][j];
 				sum +=a;
 				count++;
